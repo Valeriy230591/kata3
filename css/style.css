@@ -111,13 +111,14 @@ text-transform: uppercase;
     border-radius: 6px;
     border: 1px solid #EAEAEA;
     background: #FFF;
-    max-width: 240px;
+    width: 240px;
     height: 72px;
     margin-right:16px;
     padding:16px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-shrink: 0;
 }
 .card__box{
    display: flex;
@@ -131,7 +132,6 @@ text-transform: uppercase;
     border-radius: 6px;
     border: 1px solid #EAEAEA;
     background: #FFF;
-    width: 240px;
     height: 72px;
     padding:16px 20px;
     display: flex;
